@@ -1,0 +1,70 @@
+body{
+    position: relative;
+    background-color: #d7e2da;
+}
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0%;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  padding: 2%;
+  background-color:#70e493;
+  color: rgb(25,20,20) ;
+  display: block;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+#form-part{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 400px;
+    height: 170px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+#file{
+    padding: 10px;
+    padding-left: 15px;
+    height: 50px;
+}
+#btn-submit{
+    position: absolute;
+    left: 150px;
+    top: 120px;
+    width: 100px;
+    height: 40px;
+    
+}
+#div-form-login,#div-form-create{
+padding: 1%;
+  position: fixed;
+  padding-left: 80px;
+  width: 500px;
+  top: 200px;
+  left: 500px; 
+  color: black;
+  background-color: #869b8c;
+  border-radius: 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: medium; 
+}
+.table-message{
+  position: absolute;
+  top: 180px;
+  left: 500px;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(248, 244, 238);
+}
+#btn-upload-link{
+  position: absolute;
+  top: 320px;
+  left: 600px;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(248, 244, 238);
+}

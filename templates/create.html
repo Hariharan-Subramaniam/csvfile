@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"  type= "text/css" href=" {{ url_for ('static', filename='css/index.css' ) }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="{{ url_for('static' , filename ='js/script1.js') }}"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type= "text/css" href="/static/css/index.css">
+    <link rel="stylesheet" type= "text/css" href="/static/css/style.css">
+    <title>Create account</title>
+</head>
+<body>
+    <div class="container-fluid " >
+      <h1 class="header">FILE SAVER</h1>
+        <div class="row">
+            <div  id="div-form-create"> 
+              <h2><i class="glyphicon glyphicon-user" ></i>Create account</h2>
+              <form class="form-createaccount" >
+                <div class="form-group">
+                  <label for="createEmailId">Email</label>
+                  <input type="email" class="form-control" name="createEmailId" id="createEmailId" placeholder="enter email" required>
+                </div>
+                <div class="form-group">
+                    <label for="userName">Username</label>
+                    <input type="text" class="form-control" name="userName" id="userName" placeholder="enter username" required>
+                  </div>
+                <div class="form-group">
+                  <label for="createPasswd">Password</label>
+                  <input type="password" class="form-control" name="createPasswd" id="createPasswd" placeholder="enter password" required>
+                </div>
+                <p id='message-create'></p>
+                <br>
+                <button type="submit" class="btn btn-success">create</button>
+              </div>
+              </form>
+
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
+
