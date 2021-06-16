@@ -85,8 +85,10 @@ def success():
                 password = each[field].encode("utf-8")
                 encoded = base64.b64encode(password)
                 #print(encoded)
+                row['filename']=f.filename
                 row[field]=encoded
             else:
+                row['filename']=f.filename
                 row[field]=each[field]
         insert =fileData.insert_one(row)
     if(have==1):
